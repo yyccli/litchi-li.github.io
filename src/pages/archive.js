@@ -1,5 +1,6 @@
 import React from "react"
 import Layout from "../components/global-layout"
+import ArchiveStyle from "../styles/archive.module.css"
 import { graphql, Link } from "gatsby"
 
 export default ({data}) => {
@@ -10,13 +11,14 @@ export default ({data}) => {
             <h4>{data.allMarkdownRemark.totalCount} Posts</h4>
             {data.allMarkdownRemark.edges.map(({node}) => (
                 <div key={node.id}>
-                    <Link to={node.fields.slug}>
+                    <Link className={ArchiveStyle.archive_link} to={node.fields.slug}>
                     <h3>
                         {node.frontmatter.title}{" "} 
-                        <span>- {node.frontmatter.date}</span>
+                        <span className={ArchiveStyle.archive_span}>- {node.frontmatter.date}</span>
                     </h3>
-                    <p>{node.excerpt}</p>
                     </Link>
+                    <p>{node.excerpt}</p>
+                    
                 </div>
             ))}
         </div>

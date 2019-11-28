@@ -4,25 +4,27 @@
     padding: 0 1rem;
 }
 
-.header {
+.global_layout_header {
     margin-bottom: 1.5rem;
 }
 
-.link {
+.global_layout_link {
     text-shadow: none;
     background-image: none;
+    color: black;
 }
 
-.listlink {
+.global_layout_listlink {
     display: inline-block;
     margin-right: 1rem;
+    
 }
 
-.h3_name {
+.global_layout_h3_name {
     display: inline;
 }
 
-.ul {
+.global_layout_ul {
     list-style: none;
     float: right;
     margin: 0;
