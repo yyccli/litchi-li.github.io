@@ -1,11 +1,11 @@
 import React from "react"
-import styles from "../styles/about-user.module.css"
+import Userstyles from "../styles/about-user.module.css"
 
 const User = props => (
-    <div className={styles.user}>
-        <div className={styles.description}>
-            <h2 className={styles.username}>{props.username}</h2>
-            <p className={styles.excerpt}>{props.excerpt}</p>
+    <div className={Userstyles.user}>
+        <div className={Userstyles.description}>
+            <h2 className={Userstyles.username}>{props.username}</h2>
+            <p className={Userstyles.excerpt}>{props.excerpt}</p>
         </div>
     </div>
 )
