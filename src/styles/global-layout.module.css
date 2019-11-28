@@ -1,0 +1,28 @@
+.global_layout {
+    margin: 3rem auto;
+    max-width: 650;
+    padding: 0 1rem;
+}
+
+.header {
+    margin-bottom: 1.5rem;
+}
+
+.link {
+    text-shadow: none;
+    background-image: none;
+}
+
+.listlink {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+.h3_name {
+    display: inline;
+}
+
+.ul {
+    list-style: none;
+    float: right;
+}

@@ -1,20 +1,11 @@
 import React from "react"
-import Layout from "../components/layout"
-import {graphql} from "gatsby"
+import Layout from "../components/global-layout"
+import User from "../components/about-user"
 
 export default ({data}) => (
     <Layout>
-        <h1>About {data.site.siteMetadata.title}</h1>
-        <p>I’m good enough, I’m smart enough, and gosh darn it, people like me!</p>
+        <User>
+
+        </User>
     </Layout>
 )
-
-export const query = graphql`
-    query {
-        site {
-            siteMetadata {
-                title
-            }
-        }
-    }
-`
