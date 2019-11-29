@@ -1,22 +1,11 @@
 # Source code
 
-# Structure
+## Install
+```  npm install ```
 
-|--public -when run ``` gatsby deploy ```, it will generate this folder
+## Develop
+```  gatsby develop ```
 
-|--src -source codes
-
-|----components
-
-|----md
-
-|----pages
-
-|----styles
-
-|----templates
-
-|----utils
-
-|----static
+## Deploy
+```  npm rum deploy ```, this code is short for ``` gatsby build && gh-pages -d public -b master ```
 
