@@ -1,5 +1,7 @@
 import React from "react"
 import Layout from "../components/global-layout"
+import IndexSytles from "../styles/global-layout.module.css"
+import {Link} from "gatsby"
 
 export default ({data}) => {
     
@@ -19,26 +21,43 @@ export default ({data}) => {
         <div>
             <h3>What i have done</h3>
             <div>
-                Litchi Dan
+                <p>
+                    <i>Litchi Dan </i> <br />
+                    18年底买的一块开发板
+                </p>
+                <Link className={IndexSytles.global_layout_link} to="/litchi-dan_description/">--Litchi Dan</Link>
             </div>
 
             <div>
-                Leetcode
+                <p>
+                    <i>Leetcode </i> <br />
+                    19年初才开始做的题，到现在也就60多道吧，很懒，解答也不一定认真看，AC的也很少优化。
+                </p>
+                <Link className={IndexSytles.global_layout_link} to="/leetcode_description/">--Leetcode</Link>
             </div>
 
             <div>
-                其它奇奇怪怪的东西
+                <p>
+                    <i>Others</i> <br />
+                    日常的碎碎念儿~
+                </p>
+                <Link className={IndexSytles.global_layout_link} to="/whatyouneed_breakup/">--我要WhatYouNeed</Link>
+                
             </div>
         </div>
 
         <div>
             <h3>What i want to do</h3>
             <div>
-                一个C++编译器
+                <p>
+                    <i>A C++ Compiler</i> <br />
+                </p>
             </div>
 
             <div>
-                一个64位的OS
+                <p>
+                    <i>A x64 OS</i> <br />
+                </p>
             </div>
         </div>
 
