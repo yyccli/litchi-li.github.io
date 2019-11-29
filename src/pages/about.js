@@ -1,11 +1,23 @@
 import React from "react"
 import Layout from "../components/global-layout"
-import User from "../components/about-user"
 
 export default ({data}) => (
     <Layout>
-        <User>
+        <div>
+            <h2>李泱丞 Li Yangcheng</h2>
+        </div>
 
-        </User>
+        <div>
+            <p>
+                中南大学 计算机科学与技术 2016-now <br/>
+                半吊子选手，问啥啥不会 <br/>
+            </p>
+
+            <p>
+                Hotmail: bluebluelitchi@hotmail.com <br/>
+                Github : <a href="https://github.com/litchi-li">https://github.com/litchi-li</a>
+            </p>
+
+        </div>
     </Layout>
 )

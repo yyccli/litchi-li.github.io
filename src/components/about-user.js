@@ -15,8 +15,12 @@ TODO: use a markdown to show self introction
 */
 export default () => (
     <User
-        username="Li Yangcheng"
+        username="李泱丞 Li Yangcheng"
         avatar="https://s3.amazonaws.com/uifaces/faces/twitter/adellecharles/128.jpg"
-        excerpt="I'm bob."
-    />
+        excerpt=""
+
+        
+    >
+        Heere
+    </User>
 )
