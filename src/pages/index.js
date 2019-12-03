@@ -68,6 +68,7 @@ export default ({data}) => {
                 <p>
                     <i>A x64 OS</i> <br />
                 </p>
+                <Link className={IndexSytles.global_layout_link} to="/os_notes/">--Notes on x64 OS</Link>
             </div>
         </div>
 
