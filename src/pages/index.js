@@ -51,8 +51,8 @@ export default ({data}) => {
                     <i>Others</i> <br />
                     日常的碎碎念儿~
                 </p>
-                <Link className={IndexSytles.global_layout_link} to="/whatyouneed_breakup/">--我要WhatYouNeed-About break up</Link>
-                
+                <Link className={IndexSytles.global_layout_link} to="/whatyouneed_breakup/">--我要WhatYouNeed-About break up</Link> <br />
+                <Link className={IndexSytles.global_layout_link} to="/whatyouneed_storywiththreeboys/">--我要WhatYouNeed-我和三个考研大男孩的故事</Link>
             </div>
         </div>
 
@@ -69,6 +69,14 @@ export default ({data}) => {
                     <i>A x64 OS</i> <br />
                 </p>
                 <Link className={IndexSytles.global_layout_link} to="/os_notes/">--Notes on x64 OS</Link>
+            </div>
+
+            <div>
+                <p>
+                    <i>Dive into Deep Learning</i> <br />
+                    沐神的《动手学深度学习》学习杂记~
+                </p>
+                <Link className={IndexSytles.global_layout_link} to="/dl_notes/">--Notes on Dive into DL</Link>
             </div>
         </div>
 
