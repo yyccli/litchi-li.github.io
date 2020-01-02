@@ -10,6 +10,9 @@ export default ({data}) => {
         <div>
             <h3>Log</h3>
             <p>
+                新年到了，回顾2019年，大概觉得分手是最正确的决定之一叭。正在经历着不断堕落和养成坏习惯的日子... --2020/01/01 SH
+            </p>
+            <p>
                 中文的样式是真的头疼...<br/>
                 Jekyll,Hexo都玩过，现在的这个版本是Gatsby构建的，主题从Gatsby Tutorial中的
                 hello-world自改而成。Github可见：<a href="https://github.com/litchi-li/litchi-li.github.io/">Litchi</a>。
