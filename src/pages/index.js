@@ -8,6 +8,14 @@ export default ({data}) => {
     return (
     <Layout>
         <div>
+            <h3>Friends</h3>
+            <p>
+                进来请先看大佬，谢谢~ <span role="img" aria-label="rolling on the floor laughing">&#129315;</span>
+            </p>
+            <a href="http://aiifabbf.github.io/">Cannon & Baroque</a>
+        </div>
+
+        <div>
             <h3>Log</h3>
             <p>
                 今天开始有的文章会给图片了，图片都挂在Github上面，估计日常会无缘无故连不上或者挂掉吧哈哈哈哈 <span role="img" aria-label="laugh">&#128518;</span> 可以加emoji了，
