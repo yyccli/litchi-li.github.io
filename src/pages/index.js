@@ -34,7 +34,7 @@ export default ({data}) => {
         </div>
 
         <div>
-            <h3>What i have done</h3>
+            <h3>Journey</h3>
             <div>
                 <p>
                     <i>Litchi Dan </i> <br />
@@ -63,18 +63,6 @@ export default ({data}) => {
 
             <div>
                 <p>
-                    <i>Others</i> <br />
-                    日常的碎碎念儿~
-                </p>
-                <Link className={IndexSytles.global_layout_link} to="/whatyouneed_breakup/">--我要WhatYouNeed-About break up</Link> <br />
-                <Link className={IndexSytles.global_layout_link} to="/whatyouneed_storywiththreeboys/">--我要WhatYouNeed-我和三个考研大男孩的故事</Link>
-            </div>
-        </div>
-
-        <div>
-            <h3>What i want to do</h3>
-            <div>
-                <p>
                     <i>A C++ Compiler</i> <br />
                 </p>
             </div>
@@ -93,6 +81,16 @@ export default ({data}) => {
                 </p>
                 <Link className={IndexSytles.global_layout_link} to="/dl_notes/">--Notes on Dive into DL</Link>
             </div>
+
+            <div>
+                <p>
+                    <i>Others</i> <br />
+                    日常的碎碎念儿~
+                </p>
+                <Link className={IndexSytles.global_layout_link} to="/whatyouneed_breakup/">--我要WhatYouNeed-About break up</Link> <br />
+                <Link className={IndexSytles.global_layout_link} to="/whatyouneed_storywiththreeboys/">--我要WhatYouNeed-我和三个考研大男孩的故事</Link>
+            </div>
+
         </div>
 
     </Layout>
