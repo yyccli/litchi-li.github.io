@@ -1,11 +1,5 @@
-# Source code
+Switch to Pages_Sphinx_Flask repo
 
-## Install
-```  npm install ```
+Using Sphinx + Flask to write personal pages now.
 
-## Develop
-```  gatsby develop ```
-
-## Deploy
-```  npm rum deploy ```, this code is short for ``` gatsby build && gh-pages -d public -b master ```
-
+Bye Gatsby ~
