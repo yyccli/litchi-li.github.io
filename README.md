@@ -1,2 +1,5 @@
-# Pages_Sphinx_Flask
-Personal pages using Sphinx+Flask
+# litchi-li.github.io
+
+Personal pages
+
+Writing with rst files, Compile with Sphinx and publish with Sphinx2Pages
