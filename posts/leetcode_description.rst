@@ -1,0 +1,8 @@
+LeetCode
+========
+
+Work hard on leetcode
+
+关于所有的AC题目编号及解答可见：`Leetcode source <https://github.com/litchi-li/LeetCode>`_
+
+😔 什么时候能多做两道题喔...
