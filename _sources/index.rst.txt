@@ -2,7 +2,7 @@
     :glob:
     :hidden:
 
-    posts/*
+    posts/*/*
 
 Friends
 =======
@@ -28,23 +28,23 @@ Github可见：`Litchi <https://github.com/litchi-li/litchi-li.github.io/>`_。 
 Journey
 =======
 
-:doc:`Litchi Dan <posts/litchi-dan_description>`
+:doc:`Litchi Dan <posts/litchi-dan/litchi-dan_description>`
 
 18年底买的一块开发板
 
-:doc:`Leetcode <posts/leetcode_description>`
+:doc:`Leetcode <posts/leetcode/leetcode_description>`
 
 19年初才开始做的题，到现在也就60多道吧，很懒，解答也不一定认真看，AC的也很少优化。
 
-:doc:`HyperLedger Fabric <posts/hyperledger-fabric_notes>`
+:doc:`HyperLedger Fabric <posts/fabric/hyperledger-fabric_notes>`
 
 19年4月开始帮兔子写过的一点代码，关于HyperLedger Fabric还有Smart contract，19年底又接了一个新的项目。
 
 *A C++ Compiler*
 
-:doc:`A x64 OS <posts/os_notes>`
+:doc:`A x64 OS <posts/os/os_notes>`
 
-:doc:`Dive into Deep Learning <posts/dl_notes>`
+:doc:`Dive into Deep Learning <posts/dl/dl_notes>`
 
 沐神的《动手学深度学习》学习杂记~
 
@@ -52,7 +52,7 @@ Journey
 
 日常的碎碎念儿~
 
-:doc:`我要WhatYouNeed-About break up <posts/whatyouneed_breakup>`
+:doc:`我要WhatYouNeed-About break up <posts/whatyouneed/whatyouneed_breakup>`
 
-:doc:`我要WhatYouNeed-我和三个考研大男孩的故事 <posts/whatyouneed_storywiththreeboys>`
+:doc:`我要WhatYouNeed-我和三个考研大男孩的故事 <posts/whatyouneed/whatyouneed_storywiththreeboys>`
 
