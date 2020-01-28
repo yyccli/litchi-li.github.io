@@ -1,8 +1,13 @@
 .. toctree::
-    :glob:
     :hidden:
+    :glob:
 
-    posts/*/*
+    posts/litchi-dan/*
+    posts/leetcode/*
+    posts/fabric/*
+    posts/os/*
+    posts/dl/*
+    posts/whatyouneed/*
 
 Friends
 =======
