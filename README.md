@@ -2,4 +2,4 @@
 
 Personal pages
 
-Write with rst files, compile and publish with Sphinx2Pages
+Write with rst files, compile and publish with Sphinx
