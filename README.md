@@ -4,4 +4,4 @@
 
 ~~Write with rst files, compile and publish with Sphinx~~
 
-Now deprecated, see boboobob.github.io
+Now deprecated, see yyccli.github.io
